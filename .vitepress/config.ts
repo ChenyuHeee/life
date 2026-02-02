@@ -6,6 +6,9 @@ export default defineConfig({
   description: '生活随笔 / 摄影 / 书单',
   base: '/life/',
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Hobbies', link: '/hobbies' },
       { text: 'Reading', link: '/reading' },
