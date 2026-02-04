@@ -5,6 +5,10 @@ export default defineConfig({
   title: 'Life',
   description: '生活随笔 / 摄影 / 书单',
   base: '/life/',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/life/icon.svg' }],
+    ['meta', { name: 'theme-color', content: '#EC4899' }]
+  ],
   themeConfig: {
     search: {
       provider: 'local'
